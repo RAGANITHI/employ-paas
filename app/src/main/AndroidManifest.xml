@@ -18,6 +18,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".WebActivity"></activity>
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBFxjEJFkdq5bL8urwuwE-Vjfuj7knbS5s" />
@@ -36,7 +38,7 @@
         <activity android:name=".LoginandRegister.Login_Verify" />
         <activity android:name=".LoginandRegister.Login" />
         <activity android:name=".Chatapp.ChatActivity" />
-        <activity android:name=".OnBoardScreen.onboardscreen"/>
+        <activity android:name=".OnBoardScreen.onboardscreen" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
