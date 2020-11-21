@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+
+    tools:context=".Fragments.HomeFragment">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="match_parent">
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="@string/hello_faheem"
+               android:layout_margin="10dp"
+               android:textSize="15dp"
+               android:layout_height="wrap_content">
+
+           </TextView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="@string/find_your_dream_job"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="-10dp"
+               android:textStyle="bold"
+               android:textColor="@android:color/black"
+               android:textSize="20dp"
+               android:layout_height="wrap_content">
+
+           </TextView>
+           <androidx.viewpager2.widget.ViewPager2
+               android:layout_width="match_parent"
+               android:layout_marginTop="10dp"
+               android:id="@+id/viewpagerhome"
+               android:layout_height="wrap_content">
+
+           </androidx.viewpager2.widget.ViewPager2>
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="@string/recommendations"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="5dp"
+               android:textStyle="bold"
+               android:textColor="@android:color/black"
+               android:textSize="20dp"
+               android:layout_height="wrap_content">
+
+           </TextView>
+           <androidx.recyclerview.widget.RecyclerView
+               android:layout_width="match_parent"
+               android:layout_marginTop="10dp"
+               android:id="@+id/recommendationrecycler"
+               android:nestedScrollingEnabled="false"
+               android:layout_height="wrap_content">
+
+           </androidx.recyclerview.widget.RecyclerView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="@string/for_you"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="5dp"
+               android:textStyle="bold"
+               android:textColor="@android:color/black"
+               android:textSize="20dp"
+               android:layout_height="wrap_content">
+
+           </TextView>
+           <androidx.recyclerview.widget.RecyclerView
+               android:layout_width="match_parent"
+               android:layout_marginTop="10dp"
+               android:id="@+id/foryourecycler"
+               android:nestedScrollingEnabled="false"
+               android:layout_height="wrap_content">
+
+           </androidx.recyclerview.widget.RecyclerView>
+
+
+       </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</RelativeLayout>

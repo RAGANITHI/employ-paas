@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".LoginandRegister.Choose_language">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/employ"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_language"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:padding="40dp"
+                android:layout_height="match_parent">
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:text="English"
+                        android:id="@+id/english"
+                        android:checked="true"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content">
+
+                    </RadioButton>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:text="தமிழ்"
+                        android:checked="false"
+                        android:id="@+id/tamil"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content">
+
+                    </RadioButton>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:text="മലയാളം"
+                        android:id="@+id/malayalam"
+                        android:checked="false"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content">
+
+                    </RadioButton>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:text="ಕನ್ನಡ"
+                        android:id="@+id/kannada"
+                        android:checked="false"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content">
+
+                    </RadioButton>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:text="हिंदी"
+                        android:id="@+id/hindi"
+                        android:checked="false"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content">
+
+                    </RadioButton>
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:layout_width="wrap_content"
+            android:background="@drawable/login_buton"
+            android:text="@string/con"
+            android:textSize="15dp"
+            android:textColor="@android:color/white"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_gravity="center"
+            android:onClick="Continue"
+            android:layout_margin="10dp"
+            android:drawableRight="@drawable/arrow"
+            android:drawablePadding="20dp"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+
+</ScrollView>

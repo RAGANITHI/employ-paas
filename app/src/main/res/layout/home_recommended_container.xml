@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="250dp"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp"
+            android:layout_height="200dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.flaviofaria.kenburnsview.KenBurnsView
+                    android:layout_width="match_parent"
+                    android:id="@+id/kernburnrecommendation"
+                    android:alpha="0.1"
+                    android:layout_height="match_parent">
+
+                </com.flaviofaria.kenburnsview.KenBurnsView>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:elevation="10dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/employ"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/recommendationimage"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@+id/recommendationimage"
+                    android:text="\@birdfact"
+                    android:drawableRight="@drawable/tick"
+                    android:textStyle="bold"
+                    android:id="@+id/companyname"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/profession"
+                    android:layout_below="@+id/recommendationimage"
+                    android:text="Carpenter"
+                    android:drawableLeft="@drawable/work"
+                    android:drawablePadding="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_below="@+id/profession"
+                    android:text="150/hr"
+                    android:id="@+id/comission"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/money"
+                    android:drawablePadding="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_below="@+id/comission"
+                    android:text="KannyaKumari"
+                    android:id="@+id/location"
+                    android:layout_marginTop="5dp"
+
+                    android:drawableLeft="@drawable/location"
+                    android:drawablePadding="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/applynow"
+                    android:background="@color/appcolor"
+                    android:text="@string/apply_now"
+                    android:textColor="@android:color/white"
+                    android:layout_alignParentBottom="true"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/translate"
+                    android:id="@+id/translatetextrec"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="15dp"
+                    android:layout_height="wrap_content">
+
+                </ImageView>
+
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>

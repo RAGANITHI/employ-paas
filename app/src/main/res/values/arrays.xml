@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="id_arrayscreentiles">
+        <item></item>
+        <item>@string/Dashboard</item>
+        <item>@string/About_us</item>
+
+        <item>@string/My_Profile</item>
+        <item>@string/language</item>
+        <item>@string/Settings</item>
+        <item/>
+        <item>@string/Log_out</item>
+
+    </string-array>
+
+    <string-array name="id_arrayscreenicons">
+        <item>@drawable/close</item>
+        <item>@drawable/dashboard</item>
+        <item>@drawable/about</item>
+        <item>@drawable/botprofile</item>
+        <item>@drawable/language</item>
+        <item>@drawable/settings</item>
+        <item>0</item>
+        <item>@drawable/logout</item>
+
+    </string-array>
+
+
+    <string-array name="crop_names">
+    <item>carpenter</item>
+        <item>painter</item>
+
+</string-array>
+</resources>

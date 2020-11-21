@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp"
+            android:layout_height="200dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:elevation="10dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/employ"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/foryouimage"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@+id/foryouimage"
+                    android:text="\@birdfact"
+                    android:drawableRight="@drawable/tick"
+                    android:textStyle="bold"
+                    android:id="@+id/foryoucompanyname"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/foryouprofession"
+                    android:layout_below="@+id/foryouimage"
+                    android:text="Carpenter"
+                    android:drawableLeft="@drawable/work"
+                    android:drawablePadding="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_below="@+id/foryouprofession"
+                    android:text="150/hr"
+                    android:id="@+id/foryoucomission"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/money"
+                    android:drawablePadding="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_below="@+id/foryoucomission"
+                    android:text="KannyaKumari"
+                    android:id="@+id/foryoulocation"
+                    android:layout_marginTop="5dp"
+
+                    android:drawableLeft="@drawable/location"
+                    android:drawablePadding="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@id/foryoucompanyname"
+                    android:layout_above="@+id/jobinfo"
+                    android:layout_margin="5dp"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/employ"
+                        android:id="@+id/kernburnforyou"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter">
+
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:id="@+id/foryouapplynow"
+                    android:paddingRight="30dp"
+                    android:paddingLeft="30dp"
+                    android:layout_toRightOf="@+id/jobinfo"
+                    android:background="@drawable/login_buton"
+                    android:text="@string/apply_now"
+                    android:layout_margin="10dp"
+                    android:textColor="@android:color/white"
+                    android:layout_alignParentBottom="true"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:id="@+id/jobinfo"
+                    android:paddingRight="30dp"
+                    android:layout_margin="10dp"
+
+                    android:paddingLeft="30dp"
+                    android:background="@drawable/buttondiffstyle"
+                    android:text="@string/job_info"
+                    android:textColor="@color/appcolor"
+                    android:layout_alignParentBottom="true"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/translate"
+                    android:id="@+id/translatetext"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="15dp"
+                    android:layout_height="wrap_content">
+
+                </ImageView>
+
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>
