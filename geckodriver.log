@@ -1,0 +1,67 @@
+1605946433410	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rn/3mwry66j3wz50d8td88l6pj80000gp/T/rust_mozprofileNmLo27"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605946436193	Marionette	INFO	Listening on port 50371
+1605946436285	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605946458559	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rn/3mwry66j3wz50d8td88l6pj80000gp/T/rust_mozprofileZRiyTI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605946462780	Marionette	INFO	Listening on port 50445
+1605946462879	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605947802670	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rn/3mwry66j3wz50d8td88l6pj80000gp/T/rust_mozprofilen4kP2U"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605947814007	Marionette	INFO	Listening on port 51737
+1605947814087	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.79cf3884c4bdafb8f9ef.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.79cf3884c4bdafb8f9ef.js, line 1: unreachable code after return statement
+1605947877843	Marionette	INFO	Stopped listening on port 50371
+1605947879839	Marionette	INFO	Stopped listening on port 50445
+1605947881882	Marionette	INFO	Stopped listening on port 51737
+1605947938774	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rn/3mwry66j3wz50d8td88l6pj80000gp/T/rust_mozprofile7OBmBm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605947941392	Marionette	INFO	Listening on port 51906
+1605947941444	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.79cf3884c4bdafb8f9ef.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.79cf3884c4bdafb8f9ef.js, line 1: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605948013635	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rn/3mwry66j3wz50d8td88l6pj80000gp/T/rust_mozprofileJewMtc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605948016286	Marionette	INFO	Listening on port 51977
+1605948016404	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.79cf3884c4bdafb8f9ef.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.79cf3884c4bdafb8f9ef.js, line 1: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605948368772	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rn/3mwry66j3wz50d8td88l6pj80000gp/T/rust_mozprofileanAZNs"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605948371468	Marionette	INFO	Listening on port 52079
+1605948371539	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.79cf3884c4bdafb8f9ef.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.79cf3884c4bdafb8f9ef.js, line 1: unreachable code after return statement
+JavaScript error: resource://gre/actors/ControllersChild.jsm, line 30: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDocShell.doCommandWithParams]
+1605952587866	Marionette	INFO	Stopped listening on port 51977
+1605952590696	Marionette	INFO	Stopped listening on port 51906
+JavaScript warning: https://docs.docker.com/js/jquery.js, line 3: Script terminated by timeout at:
+handlers@https://docs.docker.com/js/jquery.js:3:9043
+dispatch@https://docs.docker.com/js/jquery.js:3:8145
+add/r.handle@https://docs.docker.com/js/jquery.js:3:5139
+trigger@https://docs.docker.com/js/jquery.js:3:7537
+simulate@https://docs.docker.com/js/jquery.js:3:10991
+c@https://docs.docker.com/js/jquery.js:3:14165
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1605955652888	Marionette	INFO	Stopped listening on port 52079
