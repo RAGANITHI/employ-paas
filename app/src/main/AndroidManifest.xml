@@ -36,6 +36,7 @@
         <activity android:name=".LoginandRegister.Login_Verify" />
         <activity android:name=".LoginandRegister.Login" />
         <activity android:name=".Chatapp.ChatActivity" />
+        <activity android:name=".OnBoardScreen.onboardscreen"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
