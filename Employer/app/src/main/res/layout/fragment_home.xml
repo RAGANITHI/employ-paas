@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.HomeFragment">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Welcome,"
+                android:id="@+id/hometext1"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Faheem Jinna"
+                android:id="@+id/hometext2"
+                android:layout_marginTop="0dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/hometext1" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:layout_marginLeft="25dp"
+                app:cardBackgroundColor="#AE91C4"
+                android:id="@+id/homeflipper"
+                android:layout_below="@id/hometext2"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginRight="25dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/flippertxt1"
+                        android:text="Find the right employee for you company!"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="15dp"/>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        app:cardBackgroundColor="#662D91"
+                        app:cardCornerRadius="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_below="@id/flippertxt1"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:background="#662D91"
+                            android:id="@+id/relativeclick"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#ffffff"
+                                android:paddingHorizontal="5dp"
+                                android:paddingVertical="3dp"
+                                android:textStyle="bold"
+                                android:text="Create a job post" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="-10dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/homevector"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/homeflipper"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="#000000"
+                android:id="@+id/jobtext"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="Previous Job Posts"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp"
+                android:layout_below="@id/homeflipper"
+                android:textSize="15dp"
+                android:text="See all"
+                android:textColor="#662D91"
+                android:layout_marginTop="20dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jobtext"
+                android:id="@+id/jobupdatesrecyclerview"
+                android:layout_marginTop="15dp">
+            </androidx.recyclerview.widget.RecyclerView>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

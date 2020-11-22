@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context=".LoginandRegister.Login">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/loginimg"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            />
+
+                <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+                    android:background="@drawable/circle_image"
+                    android:layout_width="150dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/employ"
+                    android:layout_height="150dp">
+
+                </com.blogspot.atifsoftwares.circularimageview.CircularImageView>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/login_bottom_design"
+        android:layout_marginTop="-20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+
+            android:textSize="25dp"
+            android:textColor="@android:color/black"
+            >
+
+        </TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            >
+
+        </View>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/loginphone"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:imeOptions="flagNoExtractUi"
+            android:textSize="15dp"
+            android:background="@drawable/edittext_login_design"
+
+
+            android:hint="@string/enter_your_10_digit_mobile_number"
+            android:padding="10dp"
+            android:elevation="10dp"
+
+            android:inputType="number"
+            android:ems="10"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:id="@+id/phoneloginbutton"
+            android:textColor="@android:color/white"
+            android:paddingLeft="40dp"
+            android:background="@drawable/login_buton"
+            android:paddingRight="40dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

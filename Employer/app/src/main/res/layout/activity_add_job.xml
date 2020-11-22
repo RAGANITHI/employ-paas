@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddJob">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/employ"
+                android:layout_margin="10dp"
+                android:layout_gravity="center">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Completeb Job Update"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Name"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/black"
+
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_login_design"
+                android:layout_margin="10dp"
+                android:id="@+id/usernamefirst"
+                android:textSize="15dp"
+                android:imeOptions="flagNoExtractUi"
+
+                android:hint="Enter Your Name"
+                android:inputType="text"
+                android:padding="10dp"
+                android:elevation="10dp">
+
+            </EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="location"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/black"
+
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_login_design"
+                android:layout_margin="10dp"
+                android:id="@+id/usernamelast"
+                android:textSize="15dp"
+                android:imeOptions="flagNoExtractUi"
+
+                android:hint="Enter the address"
+                android:inputType="text"
+                android:padding="10dp"
+                android:elevation="10dp">
+
+            </EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter wages"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/black"
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_login_design"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:maxEms="10"
+                android:imeOptions="flagNoExtractUi"
+                android:textSize="15dp"
+                android:id="@+id/userphonenumber"
+                android:hint="Enter the wages"
+                android:padding="10dp"
+                android:elevation="10dp">
+
+            </EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Work"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/black"
+                >
+
+            </TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_login_design"
+                android:layout_margin="10dp"
+                android:hint="Type in your work"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:imeOptions="flagNoExtractUi"
+                android:id="@+id/useraddress"
+                android:inputType="textMultiLine"
+                android:elevation="10dp">
+
+            </EditText>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Post"
+                android:id="@+id/usersavebutton"
+                android:textColor="@android:color/white"
+                android:layout_margin="20dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:background="@drawable/login_buton"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

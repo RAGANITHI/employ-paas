@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    tools:context=".OnBoardScreening.onboardscreen">
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/skipbutton"
+        android:text="skip"
+        android:onClick="Skip"
+        android:textSize="15dp"
+        android:letterSpacing="0.1"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+
+        >
+
+    </Button>
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/onboardviewpager"
+        android:layout_below="@+id/skipbutton"
+        android:layout_centerVertical="true"
+        android:layout_above="@+id/onboardtablayout"
+        android:layout_height="wrap_content">
+
+    </androidx.viewpager.widget.ViewPager>
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="wrap_content"
+        app:tabBackground="@color/appcolor"
+        android:id="@+id/onboardtablayout"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.tabs.TabLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:id="@+id/nextbut"
+        android:drawableRight="@color/appcolor"
+        android:background="@drawable/login_buton"
+        android:letterSpacing="0.2"
+        android:layout_alignParentRight="true"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/getstart"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:text="Get Started"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        android:background="@color/appcolor">
+
+    </Button>
+
+
+</RelativeLayout>

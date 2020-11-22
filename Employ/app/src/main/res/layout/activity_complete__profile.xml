@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LoginandRegister.Complete_Profile">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/employ"
+                android:layout_margin="10dp"
+                android:layout_gravity="center">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/complete_your_profile"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/first_name"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/black"
+
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_login_design"
+                android:layout_margin="10dp"
+                android:id="@+id/usernamefirst"
+                android:textSize="15dp"
+                android:imeOptions="flagNoExtractUi"
+
+                android:hint="@string/enter_your_first_name"
+                android:inputType="text"
+                android:padding="10dp"
+                android:elevation="10dp">
+
+            </EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/last_name"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/black"
+
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_login_design"
+                android:layout_margin="10dp"
+                android:id="@+id/usernamelast"
+                android:textSize="15dp"
+                android:imeOptions="flagNoExtractUi"
+
+                android:hint="@string/enter_your_last_name"
+                android:inputType="text"
+                android:padding="10dp"
+                android:elevation="10dp">
+
+            </EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_number"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/black"
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_login_design"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:maxEms="10"
+                android:imeOptions="flagNoExtractUi"
+                android:textSize="15dp"
+                android:id="@+id/userphonenumber"
+                android:hint="@string/enter_your_phone_number"
+                android:padding="10dp"
+                android:elevation="10dp">
+
+            </EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/black"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/optional"
+                android:layout_marginTop="-10dp"
+                android:textSize="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:textColor="@android:color/black"
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_login_design"
+                android:layout_margin="10dp"
+                android:hint="@string/enter_your_address"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:imeOptions="flagNoExtractUi"
+                android:id="@+id/useraddress"
+                android:inputType="textMultiLine"
+                android:elevation="10dp">
+
+            </EditText>
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pan_card"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/black"
+            >
+
+        </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/optional"
+                android:layout_marginTop="-10dp"
+                android:textSize="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:textColor="@android:color/black"
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_login_design"
+                android:layout_margin="10dp"
+                android:hint="@string/enter_your_pancard"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:imeOptions="flagNoExtractUi"
+                android:id="@+id/userpancard"
+                android:inputType="textMultiLine"
+                android:elevation="10dp">
+
+            </EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Adhaar"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/black"
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_login_design"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:maxEms="10"
+                android:imeOptions="flagNoExtractUi"
+                android:textSize="15dp"
+                android:id="@+id/useradhaar"
+                android:hint="@string/enter_your_adhaar_number"
+                android:padding="10dp"
+                android:elevation="10dp">
+
+            </EditText>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:id="@+id/usersavebutton"
+                android:textColor="@android:color/white"
+                android:layout_margin="20dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:background="@drawable/login_buton"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
